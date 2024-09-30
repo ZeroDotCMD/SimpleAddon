@@ -19,7 +19,7 @@ SSH into your printer and run the command that matches your probe.
 # SimpleAddon for BTT Eddy
 
 ```
-mkdir -p /usr/data/printer_data/config/simpleaddon
+mkdir -p /usr/data/printer_data/config/SimpleAddon
 wget -O /usr/data/printer_data/config/SimpleAddon/eddycalibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/eddycalibrate.cfg
 wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
 wget -O /usr/data/printer_data/config/SimpleAddon/autozoffset.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/autozoffset.cfg
