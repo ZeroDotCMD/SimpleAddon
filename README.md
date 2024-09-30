@@ -1,5 +1,22 @@
-Install quick start macros 
-SSH into your printer and run this command to install Eddy calibration, Quick Start and Auto Save Z Offset to your install.
+# SimpleAddon for SimpleAF
+SimpleAddon adds a few extra helpful options for SimpleAF. Included addons are listed bellow
+
+
+Auto Save Z Offset - Automatically saves gcode_z_offset into a variables files each time a change is made and auto loads z_offset on startup.
+
+Probe calibration - Dialog window for easier probe setup
+
+Quick Start - Automate basic printer calibration
+
+
+
+
+# Install
+SSH into your printer and run the command that matches your probe.
+
+
+
+# SimpleAddon for BTT Eddy
 
 ```
 mkdir -p /usr/data/printer_data/config/simpleaddon
