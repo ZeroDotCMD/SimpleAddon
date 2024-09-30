@@ -22,8 +22,8 @@ SSH into your printer and run the command that matches your probe.
 mkdir -p /usr/data/printer_data/config/SimpleAddon
 wget -O /usr/data/printer_data/config/SimpleAddon/eddycalibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/eddycalibrate.cfg
 wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
-wget -O /usr/data/printer_data/config/SimpleAddon/autozoffset.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/autozoffset.cfg
-sed -i '12i [include SimpleAddon/quickstart.cfg]\n\n[include SimpleAddon/eddycalibrate.cfg]\n\n[include SimpleAddon/autozoffset.cfg]' /usr/data/printer_data/config/printer.cfg
+wget -O /usr/data/printer_data/config/SimpleAddon/save-zoffset.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/save-zoffset.cfg
+sed -i '12i [include SimpleAddon/quickstart.cfg]\n\n[include SimpleAddon/eddycalibrate.cfg]\n\n[include SimpleAddon/save-zoffset.cfg]' /usr/data/printer_data/config/printer.cfg
 
 ```
 
