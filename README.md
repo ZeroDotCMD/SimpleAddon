@@ -12,7 +12,7 @@ Quick Start - Automate basic printer calibration
 
 
 # Install
-SSH into your printer and run the command that matches your probe.
+SSH into your printer and copy and run the command that matches your probe.
 
 
 
