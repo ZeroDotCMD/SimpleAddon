@@ -1,5 +1,5 @@
 Install quick start macros 
-SSH into your printer and run this command to copy Quick Start and Eddy calibration to your install.
+SSH into your printer and run this command to install Eddy calibration, Quick Start and Auto Save Z Offset to your install.
 
 ```
 mkdir -p /usr/data/printer_data/config/simpleaddon
