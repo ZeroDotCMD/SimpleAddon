@@ -23,8 +23,9 @@ mkdir -p /usr/data/printer_data/config/SimpleAddon
 wget -O /usr/data/printer_data/config/SimpleAddon/eddycalibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/eddycalibrate.cfg
 wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
 wget -O /usr/data/printer_data/config/SimpleAddon/save-zoffset.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/save-zoffset.cfg
-sed -i '12i [include SimpleAddon/quickstart.cfg]\n\n[include SimpleAddon/eddycalibrate.cfg]\n\n[include SimpleAddon/save-zoffset.cfg]' /usr/data/printer_data/config/printer.cfg
-
+/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/quickstart.cfg"
+/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/eddycalibrate.cfg"
+/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/save-zoffset.cfg"
 ```
 
 
