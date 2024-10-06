@@ -4,11 +4,9 @@ SimpleAddon adds a few extra helpful options for SimpleAF. Included addons are l
 
 Auto Save Z Offset - Automatically saves gcode_z_offset into a variables files each time a change is made and auto loads z_offset on startup.
 
-Probe calibration - Dialog window for easier probe setup
+Probe calibration - Dialog window for easier probe setup - Includes Eddy Temperature Calibration
 
 Quick Start - Automate basic printer calibration
-
-
 
 
 # Install
