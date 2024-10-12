@@ -28,3 +28,13 @@ echo -e "\n\n[temperature_probe btt_eddy]\nsensor_type: Generic 3950\nsensor_pin
 ```
 
 
+
+# SimpleAddon Auto Save Z Offset + Quick Start
+
+```
+mkdir -p /usr/data/printer_data/config/SimpleAddon
+wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
+wget -O /usr/data/printer_data/config/SimpleAddon/save-zoffset.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/save-zoffset.cfg
+/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/quickstart.cfg"
+/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/save-zoffset.cfg"
+```
