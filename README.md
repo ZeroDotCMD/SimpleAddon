@@ -1,7 +1,7 @@
 # SimpleAddon for SimpleAF
 SimpleAddon adds a few extra helpful options for SimpleAF. Included addons are listed bellow
-
-Probe calibration - Dialog window for easier probe setup for probes.
+<br><br>
+Probe calibration - Dialog window for easier probe setup for probes.<br>
 Extras - Stand alone addon options for various extra features.
 
 
@@ -26,7 +26,7 @@ wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.git
 
 # SimpleAddon Extras
 This section contains no probe calibrations. Simply the additional scripts and stand alone versions without adding any probe features.
-
+<br><br>
 
 # Quick Start
 Quick Start - Automate basic printer calibration such as PID calibration and Input Shaping
