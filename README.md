@@ -22,9 +22,7 @@ wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.git
 /usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/eddycalibrate.cfg"
 ```
 
-
-
-
+<br><br><br><br>
 
 # SimpleAddon Extras
 This section contains no probe calibrations. Simply the additional scripts and stand alone versions without adding any probe features.
