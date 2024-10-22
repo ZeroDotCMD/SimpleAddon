@@ -36,15 +36,3 @@ mkdir -p /usr/data/printer_data/config/SimpleAddon
 wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
 /usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/quickstart.cfg"
 ```
-
-
-# Auto Save Z Offset
-Auto Save Z Offset - Automatically saves gcode_z_offset into a variables files each time a change is made and auto loads z_offset on startup.
-
-```
-mkdir -p /usr/data/printer_data/config/SimpleAddon
-wget -O /usr/data/printer_data/config/SimpleAddon/save-zoffset.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/save-zoffset.cfg
-/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/save-zoffset.cfg"
-```
-
-
