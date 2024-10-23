@@ -9,6 +9,7 @@ Extras - Stand alone addon options for various extra features.
 
 # Install
 SSH into your printer and copy and run the command that matches your probe.
+<br><br>
 
 # SimpleAddon for Cartographer 3D
 
