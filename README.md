@@ -15,24 +15,19 @@ SSH into your printer and copy and run the command that matches your probe.
 # SimpleAddon for BTT Eddy
 
 ```
-mkdir -p /usr/data/printer_data/config/SimpleAddon
-wget -O /usr/data/printer_data/config/SimpleAddon/eddycalibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/eddycalibrate.cfg
-wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
-/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/quickstart.cfg"
-/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/eddycalibrate.cfg"
+mkdir -p /usr/data/printer_data/config/addons
+wget -O /usr/data/printer_data/config/addons/eddycalibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/eddycalibrate.cfg
+wget -O /usr/data/printer_data/config/addons/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
+/usr/data/pellcorp/k1/config-helper.py --add-include "addons/*.cfg"
 ```
-
-<br><br><br><br>
-
-# SimpleAddon Extras
-This section contains no probe calibrations. Simply the additional scripts and stand alone versions without adding any probe features.
 <br><br>
 
-# Quick Start
-Quick Start - Automate basic printer calibration such as PID calibration and Input Shaping
+# SimpleAddon for Cartographer 3D
 
 ```
-mkdir -p /usr/data/printer_data/config/SimpleAddon
-wget -O /usr/data/printer_data/config/SimpleAddon/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
-/usr/data/pellcorp/k1/config-helper.py --add-include "SimpleAddon/quickstart.cfg"
+mkdir -p /usr/data/printer_data/config/addons
+wget -O /usr/data/printer_data/config/addons/cartographer_calibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/cartographer_calibrate.cfg
+wget -O /usr/data/printer_data/config/addons/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
+/usr/data/pellcorp/k1/config-helper.py --add-include "addons/*.cfg"
 ```
+
