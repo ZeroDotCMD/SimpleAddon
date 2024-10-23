@@ -27,6 +27,7 @@ wget -O /usr/data/printer_data/config/addons/quickstart.cfg https://raw.githubus
 ```
 mkdir -p /usr/data/printer_data/config/addons
 wget -O /usr/data/printer_data/config/addons/eddycalibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/eddycalibrate.cfg
+wget -O /usr/data/printer_data/config/addons/eddycalibrate.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/eddycalibrate.cfg
 wget -O /usr/data/printer_data/config/addons/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
 /usr/data/pellcorp/k1/config-helper.py --add-include "addons/*.cfg"
 ```
