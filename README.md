@@ -2,7 +2,8 @@
 SimpleAddon adds a few extra helpful options for SimpleAF. Included addons are listed bellow
 <br><br>
 Probe calibration - Dialog window for easier probe setup for probes.<br>
-Extras - Stand alone addon options for various extra features.
+Quick Start - Quick Start is a single macro that runs through the basic calibrations required to begin printing, including PID calibration for both the printer's bed and hotend, as well as input shaping.
+
 
 
 
