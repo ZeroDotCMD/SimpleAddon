@@ -20,7 +20,7 @@ wget -O /usr/data/printer_data/config/addons/eddycalibrate.cfg https://raw.githu
 wget -O /usr/data/printer_data/config/addons/quickstart.cfg https://raw.githubusercontent.com/ZeroDotCMD/SimpleAddon/main/SimpleAddon/quickstart.cfg
 /usr/data/pellcorp/k1/config-helper.py --add-include "addons/*.cfg"
 ```
-<br><br>
+<br>
 
 # SimpleAddon for Cartographer 3D
 
